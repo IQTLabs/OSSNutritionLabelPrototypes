@@ -5,12 +5,6 @@ IQT Labs' Open Source Software Nutrition Label Prototype is a __proof-of-concept
 
 It brings together open source software project metadata and allows users to [sort](https://github.com/IQTLabs/OSSNutritionLabelPrototypes#bar_chart-visualization-approach) their dependencies based on different criteria.
 
-:bulb: Core Concept
------------
-Many open-source software packages are fit for consumption and some are even beneficial to the developers who rely on them. Others are more akin to junk food, enticing in the moment, easy to ingest, but sub-optimal in the long term. Still others contain the software analogue of food adulterants, which compromise basic security and effectiveness. 
-
-Our basic premise is that software nutrition labels can help developers and enterprise program managers make better-informed decisions about third-party software on the basis of [project health](https://www.usenix.org/system/files/login/articles/login_fall20_07_link.pdf), [maintenance activity](https://www.usenix.org/system/files/login/articles/login_summer20_11_geer.pdf), and [supply chain risk](https://www.usenix.org/system/files/login/articles/login_winter20_17_geer.pdf).
-
 :sparkles: New Prototypes
 -----------
 
@@ -25,6 +19,18 @@ This project is:
 |:--:|:--:|:--:|:--:|:--:|
 |![image](https://user-images.githubusercontent.com/45634754/150364580-104bfcf9-00df-4740-a17d-2dacfa37e8c2.png)|![image](https://user-images.githubusercontent.com/45634754/150364704-0ea84348-76c8-4b12-ae9e-f50edcb78ff8.png)|![image](https://user-images.githubusercontent.com/45634754/150364830-fba7f171-db30-427d-8505-1ce74157f1ae.png)|![image](https://user-images.githubusercontent.com/45634754/150365024-9f220290-c221-443e-a63e-be67702db576.png)|![image](https://user-images.githubusercontent.com/45634754/150365177-0c78595a-c6a0-43a8-8b9d-5bcdf925bcfc.png)|
 |[![](https://img.shields.io/badge/Interactive-Demo_1-green?style=plastic&logo=CodeSandbox)](https://o5pev.csb.app/)|[![](https://img.shields.io/badge/Interactive-Demo_2-green?style=plastic&logo=CodeSandbox)](https://4z1g2.csb.app/)|[![](https://img.shields.io/badge/Interactive-Demo_3-green?style=plastic&logo=CodeSandbox)](https://ljxxn.csb.app/)|[![](https://img.shields.io/badge/Interactive-Demo_4-green?style=plastic&logo=CodeSandbox)](https://ydr79.csb.app/)|[![](https://img.shields.io/badge/Interactive-Demo_5-green?style=plastic&logo=CodeSandbox)](https://trui4.csb.app/)|
+
+:bulb: Core Concept
+-----------
+
+Many Python and JavaScript packages in circulation today are fit for consumption providing [real productivity benefits](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/) to the developers who rely on them. Others are more akin to junk food, momentarily enticing, both [easy to ingest](https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/) and [neglect](https://dlorenc.medium.com/zombie-dependencies-77c34740a7a8), but sub-optimal in the long term. (For instance, when analyzing one of our codebases, we came across a package dependency which serves as a [“tombstone package”](https://snyk.io/advisor/python/elpy).) Finally, a few contain the software analogue of [food contaminants](https://blog.sonatype.com/pypi-and-npm-flooded-with-over-5000-dependency-confusion-copycats), which [compromise basic security](https://www.darkreading.com/vulnerabilities-threats/beware-the-package-typosquatting-supply-chain-attack) and effectiveness, underscoring the need for more sophisticated open source software [health metrics](https://www.usenix.org/system/files/login/articles/login_fall20_07_link.pdf).
+
+The Nutrition Label concept is an approach to information transparency that researchers in the [data science](https://datanutrition.org/), [online media](https://civic.mit.edu/index.html), and [Internet of Things (IoT)](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.05142021-draft.pdf) communities have adapted from its [original FDA context](https://www.fda.gov/files/food/published/Food-Labeling-Guide-%28PDF%29.pdf).
+
+Our premise is that software nutrition labels can help developers and enterprise program managers make better-informed decisions about third-party software on the basis of [project health](https://www.usenix.org/system/files/login/articles/login_fall20_07_link.pdf), [maintenance activity](https://www.usenix.org/system/files/login/articles/login_summer20_11_geer.pdf), and [supply chain risk](https://www.usenix.org/system/files/login/articles/login_winter20_17_geer.pdf).
+
+Much like the [long, tortuous history of food labeling in the United States](https://lessonbank.kyae.ky.gov/wp-content/uploads/2019/02/The-Story-of-the-Laws-Behind-the-Labels.pdf), the push for greater transparency around open source software and data science packages will likely involve many stakeholders working together over an extended period. The IQT Labs Open Source Software Nutrition Label prototype is one small attempt to demonstrate the art of the possible in this context, as others have done 
+
 
 :warning: Important Disclaimers
 -----------
