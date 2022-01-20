@@ -34,7 +34,9 @@ This codebase and the demo links above contain __minimum working examples (MWEs)
 
 The current MWEs focus on IQT Labs' <a href="https://github.com/IQTLabs/FakeFinder" target="_blank">FakeFinder</a> face-swap detection project. They visualize package health score data from <a href="https://snyk.io/advisor" target="_blank">Snyk Advisor</a>,<sup>*</sup> (94/100 example above) as well as associated software project metadata, for the top-level software dependencies listed in FakeFinder's various <a href="https://github.com/IQTLabs/FakeFinder/search?q=requirements" target="_blank"><code>requirements.txt</code></a> files.
 
-<sup>*</sup> Data current as of <code>2021-08-25</code>.
+```diff
+- N.B. These values may have changed since our initial query in 2021. We have not set the UI to refresh automatically.
+```
 
 <details>
     <summary>The Snyk- and GitHub-derived data shown in the Open Source Software Nutrition Label Prototype are not endorsed or approved by IQT Labs, and future nutrition label releases may vary.</summary>
@@ -55,8 +57,8 @@ This visualization approach we chose for this prototype enables users to make so
 
 To customize this prototype with data of your own: 
 * clone (or download) this repo
-* modify your [rows](https://github.com/IQTLabs/OSSNutritionLabelPrototypes/blob/master/src/data/index.tsx#L15-580) in __src/data/index.tsx__
-* update your [columns](https://github.com/IQTLabs/OSSNutritionLabelPrototypes/blob/master/src/App.tsx#L49) in __src/App.tsx__
+* modify your [rows](https://github.com/IQTLabs/OSSNutritionLabelPrototypes/blob/main/src/data/index.tsx#L15-L580) in __src/data/index.tsx__
+* update your [columns](https://github.com/IQTLabs/OSSNutritionLabelPrototypes/blob/main/src/App.tsx#L49-L58) in __src/App.tsx__
 
 That's it. There's no step four!
 
