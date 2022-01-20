@@ -86,7 +86,7 @@ Anyone interested in discussing related research or collaboration should e-mail 
 :gift: Contributions
 -------
 * :scorpion: Catch a bug? [Smell an odor](http://www.cs.wm.edu/~denys/pubs/ICSE'15-BadSmells-CRC.pdf)? [Open a **New Issue** ticket detailing the problem; incl. screenshots if you can](https://github.com/IQTLabs/OSSNutritionLabelPrototypes/issues/new)
-* Have pertinent and [unrestricted](https://www.copyright.gov/title17/92chap1.html#107) components to add? We look forward to reviewing new [**Pull Requests**](https://github.com/IQTLabs/OSSNutritionLabelPrototypes/pulls) that originate from feature dev. branches
+* Have pertinent and [unrestricted](https://www.copyright.gov/title17/92chap1.html) components to add? We look forward to reviewing new [**Pull Requests**](https://github.com/IQTLabs/OSSNutritionLabelPrototypes/pulls) that originate from feature dev. branches
 * *Pro tip: the odds we'll act promptly on/respond favorably to any of the above increase exponentially if you follow [best practices](https://schubert.io/pr-feedback-poster.pdf)*
 
 :scroll: License
