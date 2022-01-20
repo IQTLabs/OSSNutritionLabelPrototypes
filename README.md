@@ -23,6 +23,7 @@ This project is:
 
 |MWE #1|MWE #2|MWE #3|MWE #4|MWE #5|
 |:--:|:--:|:--:|:--:|:--:|
+|![image](https://user-images.githubusercontent.com/45634754/150364580-104bfcf9-00df-4740-a17d-2dacfa37e8c2.png)|![image](https://user-images.githubusercontent.com/45634754/150364704-0ea84348-76c8-4b12-ae9e-f50edcb78ff8.png)|![image](https://user-images.githubusercontent.com/45634754/150364830-fba7f171-db30-427d-8505-1ce74157f1ae.png)|![image](https://user-images.githubusercontent.com/45634754/150365024-9f220290-c221-443e-a63e-be67702db576.png)|![image](https://user-images.githubusercontent.com/45634754/150365177-0c78595a-c6a0-43a8-8b9d-5bcdf925bcfc.png)|
 |[![](https://img.shields.io/badge/Interactive-Demo_1-green?style=plastic&logo=CodeSandbox)](https://o5pev.csb.app/)|[![](https://img.shields.io/badge/Interactive-Demo_2-green?style=plastic&logo=CodeSandbox)](https://4z1g2.csb.app/)|[![](https://img.shields.io/badge/Interactive-Demo_3-green?style=plastic&logo=CodeSandbox)](https://ljxxn.csb.app/)|[![](https://img.shields.io/badge/Interactive-Demo_4-green?style=plastic&logo=CodeSandbox)](https://ydr79.csb.app/)|[![](https://img.shields.io/badge/Interactive-Demo_5-green?style=plastic&logo=CodeSandbox)](https://trui4.csb.app/)|
 
 :warning: Important Disclaimers
@@ -33,6 +34,8 @@ This codebase and the demo links above contain __minimum working examples (MWEs)
 <img alt="dataflow" src="https://user-images.githubusercontent.com/45634754/137221606-ab70f021-f471-4bdd-aea1-5e97ee0317bc.png">
 
 The current MWEs focus on IQT Labs' <a href="https://github.com/IQTLabs/FakeFinder" target="_blank">FakeFinder</a> face-swap detection project. They visualize package health score data from <a href="https://snyk.io/advisor" target="_blank">Snyk Advisor</a>,<sup>*</sup> (94/100 example above) as well as associated software project metadata, for the top-level software dependencies listed in FakeFinder's various <a href="https://github.com/IQTLabs/FakeFinder/search?q=requirements" target="_blank"><code>requirements.txt</code></a> files.
+
+<sup>*</sup> Example from a query dated <code>2021-08-25</code>.
 
 ```diff
 - N.B. These values may have changed since our initial query in 2021. We have not set the UI to refresh automatically.
